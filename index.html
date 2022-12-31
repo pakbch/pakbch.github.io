@@ -43,6 +43,13 @@
   // stop the music when the "Off" button is clicked
   document.querySelector('#music').pause();
 });
+app.get('/', (request, response) => {
+  if (request.method === 'GET' && request.headers['user-agent'].includes('curl')) {
+    response.send('SOJAO!');
+  } else {
+    response.send('Welcome to my website!');
+  }
+});
 </script>
     <img src="https://i.gifer.com/2yc7.gif">
     <div class="rainbow">
