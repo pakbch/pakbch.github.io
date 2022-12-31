@@ -68,13 +68,4 @@
     </div>
     <br>
   </body>
-<body>
-    <?php
-    if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'curl') !== false) {
-        echo "<p>SOJAO!</p>";
-    } else {
-        echo "<p>Welcome to my website!</p>";
-    }
-    ?>
-</body>
 </html>
