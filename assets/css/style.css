@@ -211,6 +211,37 @@ input:checked:focus + .switch-left + .switch-right {
 }
 
 
+.btn-xss {
+	color: cyan;
+	font-family: "Brandon Light";
+	transition: 0.3s;
+}
+
+.btn-xss:hover {
+	color: #57d0da !important;
+}
+
+.btn-github {
+	color: cyan;
+	font-family: "Brandon Light";
+	transition: 0.3s;
+}
+
+.btn-github:hover {
+	color: grey !important;
+}
+
+.btn-keybase {
+	color: cyan;
+	font-family: "Brandon Light";
+	transition: 0.3s;
+}
+
+.btn-keybase:hover {
+	color: red !important;
+}
+
+
 
 
 .rainbow {
