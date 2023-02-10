@@ -21,7 +21,10 @@ img {
 	z-index: -1;
 	filter: blur(0px) brightness(20%);
 	pointer-events: none;
+	display: flex;
+    justify-content: center;
 }
+
 
 html {
 	cursor: url("../medias/cursor.png"), default;
@@ -208,6 +211,37 @@ input:focus + .switch-left + .switch-right {
 
 input:checked:focus + .switch-left + .switch-right {
   color: #333;
+}
+
+
+.btn-xss {
+	color: cyan;
+	font-family: "Brandon Light";
+	transition: 0.3s;
+}
+
+.btn-xss:hover {
+	color: #57d0da !important;
+}
+
+.btn-github {
+	color: cyan;
+	font-family: "Brandon Light";
+	transition: 0.3s;
+}
+
+.btn-github:hover {
+	color: grey !important;
+}
+
+.btn-keybase {
+	color: cyan;
+	font-family: "Brandon Light";
+	transition: 0.3s;
+}
+
+.btn-keybase:hover {
+	color: red !important;
 }
 
 
