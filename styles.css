@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    user-select: none; /* Disable text selection */
+}
+a {
+    color: #ffb006
+}
+
+pre {
+    font-family: monospace;
+    color: #FFF;
+    font-weight: bold;
+    font-size: small;
+    padding: 10px;
+    position: relative;
+    border: 1.2mm ridge rgb(221, 221, 220);
+    border-radius: 7px;
+}
+
+.ascii {
+    color: rgb(98, 68, 145); /* Set the text color to blue */
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        align-items: flex-start;
+    }
+}
+
